@@ -59,3 +59,51 @@ FreeRTOS/Demo/
 FreeRTOS/Documentation/
 FreeRTOS-Plus/
 FreeRTOS-Labs/
+
+
+# ###################
+# STM32 + Keil 过滤规则
+# ###################
+
+# Keil 编译产生的中间文件
+*.axf
+*.hex
+*.bin
+*.o
+*.d
+*.htm
+*.map
+*.lst
+*.bak
+*.dep
+*.uvguix
+*.uvoptx
+*.plg
+*.tra
+*.sct
+
+# 编译输出目录（自动生成）
+Objects/
+Listings/
+Output/
+RTE/
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+BUILD/
+build/
+
+# 仿真、调试文件
+*.dbgconf
+*.uvprojx.user
+
+# CubeMX 自动生成的临时文件
+*.ioc.bak
+.cproject
+.project
+.settings/
+.idea/
+cmake-build-debug/
+
+# 系统垃圾文件
+Thumbs.db
+.DS_Store
