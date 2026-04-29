@@ -1,0 +1,23 @@
+# 自动处理换行符，关闭警告
+* text=auto
+
+# 代码文件统一处理
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+
+# 配置/脚本文件
+*.md text
+*.json text
+*.yml text
+*.cmake text
+
+# 二进制文件不处理
+*.bin binary
+*.hex binary
+*.lib binary
+*.o binary
+*.a binary
+*.jpg binary
+*.png binary
